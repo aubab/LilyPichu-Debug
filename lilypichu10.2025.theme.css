@@ -1,0 +1,340 @@
+/**
+* @name LilyPichu Debug Oct 2025
+* @author Pink Serenity
+* @description A theme based on @Melonturtle_ stream design; Original by NYRI4
+* @invite rtBQX5D3bD
+* @version 1.99
+*/
+/* @import url("https://raw.githubusercontent.com/PinkSerenity/LilyPichu/refs/heads/debug/main.css"); */
+
+/* Remove decorations */
+/* @import url("https://raw.githubusercontent.com/PinkSerenity/LilyPichu/refs/heads/debug/stuff/overlay.css"); */
+
+:root {
+  /* --- User variables --- */
+  --theme-base-color: #fa8386;
+  --theme-base-color-amount: 100%;
+
+  /* Jumping GIF */
+  --jumping-gif: url("https://i.imgur.com/dCd49s0.gif");
+
+  /* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => */
+  --background-tertiary-alt: #ffc7d4;
+
+  /* Border-radius for the whole theme */
+  --border-radius: 20px;
+
+  /*Refresh*/  
+  --bg-overlay-4: var(--background-secondary) !important;
+  --background-mod-subtle: var( --background-secondary) !important;
+  --background-base-low: var(--background-secondary-alt) !important;
+  --background-base-lower: var(--background-primary) !important;
+  --background-base-lowest: var(--background-tertiary) !important;
+  --bg-base-tertiary: var(--background-tertiary) !important;
+  --custom-channel-members-bg: var(--background-secondary) !important;
+  --chat-background-default: var(--background-secondary) !important;
+  --input-background: var(--background-tertiary) !important;
+  --background-surface-high: var(--background-secondary) !important;
+  --background-surface-higher: var(--background-secondary) !important;
+  
+  	
+}
+
+.visual-refresh {
+
+  
+
+  .sidebar_c48ade:after 
+    display: none;
+  }
+
+  .scroller_ef3116 {
+    padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) * 2) !important;
+  }
+  .wrapper_ef3116 {
+    margin-bottom: unset !important;
+  }
+
+  .sidebarRegionScroller__23e6b {
+    background: var(--background-secondary) !important;
+  }
+
+  .contentRegionScroller__23e6b {
+    background-color: unset !important;
+  }
+
+  .itemsContainer_ef3116 {
+    background: var(--background-secondary) !important;
+  }
+
+  .sidebar_c48ade:after {
+    display: none;
+  }
+
+}
+
+.theme-dark,
+.visual-refresh.theme-dark {
+    /* Text */
+    --text-normal: #f8e1e5;
+    --header-primary: #f8e1e5;
+    --interactive-normal: #fab1bd;
+    --channels-default: #f8e1e5;
+    --text-muted: #e2c1c7;
+    --interactive-muted: #ad8c91;
+    --header-secondary: #e2c1c7;
+    --interactive-hover: #e2c1c7;
+    --interactive-active: #e2c1c7;
+    /* Background color */
+    --background-primary: #5e3640;
+    --background-secondary: #49292f;
+    --background-secondary-alt: #3b1d24;
+    --background-tertiary: #220f14;
+    --background-floating: #221115;
+    --background-accent: #c5536c;
+    --channeltextarea-background: var(--background-secondary);
+    --modal-background: var(--background-primary);
+    --background-modifier-hover: #5e36403b;
+    --background-modifier-active: #5e364058;
+    --background-modifier-selected: #5e364068;
+    --toast-background: #5e3640 !important;
+    --toast-header: #3b1d24 !important;
+    --toast-contents: #49292f !important;
+    --toast-border: #49292f !important;
+    --input-background: var(--background-secondary);
+    --input-background-default: var(--background-secondary);
+
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+    /* Other */
+    --channel-text-area-placeholder: var(--interactive-normal);
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+.colorBrand-3cPPsm {
+  color: #c5536c;
+}
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Buttons */
+.lookFilled_dd4f85 {
+  background-color: #c5536c !important;
+}
+.lookFilled_dd4f85:active,
+.lookFilled_dd4f85:hover {
+  background-color: #b64a61 !important;
+}
+.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
+  color: #c5536c;
+  border-color: #c5536c;
+}
+
+/* Hover background */
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  color: var(--interactive-normal);
+}
+
+.theme-light,
+.visual-refresh.theme-light {
+    /* Text */
+    --text-normal: #a86373;
+    --header-primary: #a86373;
+    --interactive-normal: #a86373;
+    --channels-default: #a86373;
+    --text-muted: #a86373;
+    --interactive-muted: #cf92a0;
+    --header-secondary: #cf92a0;
+    --interactive-hover: #be7d8c;
+    --interactive-active: #b36f7f;
+    /* Background color */
+    --background-primary: #f5e0df;
+    --background-secondary: #f2bfbf;
+    --background-secondary-alt: #fdc7c7;
+    --background-tertiary: #ffe8e8;
+    --background-floating: #ffbbbb;
+    --background-accent: #c5536c;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(56, 31, 31, 0.062);
+    --background-modifier-active: rgba(19, 12, 12, 0.123);
+    --background-modifier-selected: rgba(31, 21, 21, 0.11);
+    --input-background-default: var(--background-secondary);
+    --background-surface-high: #b36f7f;
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-secondary-alt);
+    --scrollbar-auto-track: var(--background-tertiary);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+    /* Icons */
+    --icon-tertiary: #b36f7f;
+    --icon-primary: #b36f7f;
+    --icon-secondary: #b36f7f;
+    /* Status Colors*/
+    --status-danger-text: #fa8386;
+    --status-danger-background: #fa8386;
+    --notice-background-positive: #779682;
+}
+
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Buttons */
+.lookFilled_dd4f85 {
+  background-color: #c5536c !important;
+}
+.lookFilled_dd4f85:active,
+.lookFilled_dd4f85:hover {
+  background-color: #b64a61 !important;
+}
+.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
+  color: #c5536c;
+  border-color: #c5536c;
+}
+
+/* Hover background */
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  color: var(--interactive-normal);
+}
+
+/* Sidebar Background */
+.itemsContainer_ef3116, .tree_ef3116 {
+    color: #f5e0df !important;
+}
+.sidebarResizeHandle_c48ade {
+    background-color: var(--background-primary) !important;
+}
+
+/* Friends Column */
+.peopleColumn__133bf {
+    color: var(--background-tertiary) !important;
+}
+
+.container__9293f {
+    background-color: var(--background-primary) !important;
+}
+
+.subtitleContainer_f75fb0 {
+    background-color: #f5e0df !important;
+    outline-color: var(--icon-primary);
+}
+
+/*Now Playing*/
+.searchBar__35e86, .nowPlayingColumn__133bf, .scroller__7d20c {
+    background-color: var(--background-primary) !important;
+}
+
+.scroller_ef3116 {
+    background-color: var(--background-secondary) !important;
+}
+
+/*Server Activity Column*/
+.content_d125d2 {
+    background-color: var(--background-tertiary) !important;
+}
+.children__9293f:after{
+    display: none;
+}
+
+.scroller__99e7c {
+    background-color: var(--background-tertiary) !important;
+}
+
+.childWrapperNoHoverBg__6e9f8 {
+    background-color: var(--header-primary) !important;
+}
+
+.container__37e49, .container_e131a9 {
+    background-color: var(--background-secondary) !important;
+}
+
+.container__2637a {
+    background-color: var(--background-tertiary) !important;
+}
+
+.sidebarResizeHandle_c48ade {
+    background-color: var(--background-tertiary) !important;
+}
+
+.container_c8ffbb {
+    background-color: var(--background-primary) !important;
+}
+
+/* Top Grabby Bar*/
+.platform-win, .bar_c38106 {
+    background-color: var(--background-secondary) !important;
+}
+
+.section__00943:first-child, .section__00943 {
+    background-color: var(--background-primary) !important;
+}
+
+.contentCollapsedWrapper__5f897 {
+    outline-color: var(--interactive-active);
+}
+
+.container__91a9d {
+   border-collapse: separate;
+   color: var(--icon-tertiary);
+}
+
+.defaultColor__5345c, .clickable_c99c29, .icon__9293f, .icon__2ea32, .button__201d5 .contents__201d5, .controlIcon_f1ceac, .icon__9293f {
+    color: var(--icon-tertiary) !important;
+}
+
+.activityPanel_c48ade {
+    background-color: var(--background-secondary) !important;
+}
+
+.browser_d98031 {
+    background-color: var(--background-floating) !important;
+}
+
+.md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0, .header__45690, .subtext__339d0, .controlIcon_f1ceac, .title__9293f {
+    color: var(--icon-tertiary) !important;
+}
+
+.scroller_c1e9c4, .messagesPopout__45690 {
+    background-color: var(--background-primary) !important;
+}
+
+.footer__45690 {
+    background-color: var(--background-tertiary) !important;
+}
+
+.modeConnected__2ea32 .name__2ea32, .modeConnected__2ea32:hover .name__2ea32, .modeSelected__2ea32 .name__2ea32, .modeSelected__2ea32:hover .name__2ea32 {
+    color: var(--icon-tertiary) !important;
+}
+
+.panels_c48ade {
+    background-color: var(--icon-primary) !important;
+}
+
+.base_c48ade, .sidebar_c48ade {
+    background-color: var(--background-secondary) !important;
+}
+
+.videoGrid_a21736 {
+    background-color: var(--background-primary) !important;
+}
+
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf, .buttonContainer__1405b, .buttonSection__1405b {
+    background-color: var(--icon-primary) !important;
+    background:!important;
+}
+
+.members_c8ffbb {
+    background: var(--background-primary) !important;
+}
