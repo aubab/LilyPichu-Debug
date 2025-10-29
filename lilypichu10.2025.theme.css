@@ -1,16 +1,17 @@
 /**
 * @name LilyPichu Debug Oct 2025
-* @author Pink Serenity
+* @author Pink Serenity & Ame
 * @description A theme based on @Melonturtle_ stream design; Original by NYRI4
 * @invite rtBQX5D3bD
-* @version 1.99
+* @version 1.991
 */
-/* @import url("https://aubab.github.io/LilyPichu-Debug/"); */
+/* @import url("https://raw.githubusercontent.com/PinkSerenity/LilyPichu/refs/heads/debug/main.css"); */
 
 /* Remove decorations */
 /* @import url("https://raw.githubusercontent.com/PinkSerenity/LilyPichu/refs/heads/debug/stuff/overlay.css"); */
 
 @import url("https://aubab.github.io/LilyPichu-Debug/");
+
 :root {
   /* --- User variables --- */
   --theme-base-color: #fa8386;
@@ -72,6 +73,10 @@
 
   .sidebar_c48ade:after {
     display: none;
+  }
+
+  .div {
+    display: none !important;
   }
 
 }
@@ -224,7 +229,8 @@
 }
 
 .container__9293f {
-    background-color: var(--background-primary) !important;
+    background-color: var(--background-tertiary) !important;
+    outline-color: var(--icon-primary);
 }
 
 .subtitleContainer_f75fb0 {
@@ -234,7 +240,7 @@
 
 /*Now Playing*/
 .searchBar__35e86, .nowPlayingColumn__133bf, .scroller__7d20c {
-    background-color: var(--background-primary) !important;
+    background-color: var(--background-tertiary) !important;
 }
 
 .scroller_ef3116 {
@@ -307,6 +313,8 @@
     color: var(--icon-tertiary) !important;
 }
 
+/* Scrollers, backgrounds, etc */
+
 .scroller_c1e9c4, .messagesPopout__45690 {
     background-color: var(--background-primary) !important;
 }
@@ -331,11 +339,25 @@
     background-color: var(--background-primary) !important;
 }
 
-.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf, .buttonContainer__1405b, .buttonSection__1405b {
+/* Server Buttons */
+
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf, .buttonContainer__1405b, .buttonSection__1405b, .button_a22cb0 {
     background-color: var(--icon-primary) !important;
-    background:!important;
+    background: !important;
 }
 
 .members_c8ffbb {
     background: var(--background-primary) !important;
+}
+
+.text-lg\/semibold_cf4812 {
+    color: var(--background-primary) !important;
+}
+
+.newMessagesBar__0f481 {
+    background-color: var(--icon-primary) !important;
+}
+
+.div {
+    display: none !important;
 }
