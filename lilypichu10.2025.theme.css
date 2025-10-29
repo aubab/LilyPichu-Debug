@@ -10,6 +10,7 @@
 /* Remove decorations */
 /* @import url("https://raw.githubusercontent.com/PinkSerenity/LilyPichu/refs/heads/debug/stuff/overlay.css"); */
 
+@import url("https://aubab.github.io/LilyPichu-Debug/");
 :root {
   /* --- User variables --- */
   --theme-base-color: #fa8386;
